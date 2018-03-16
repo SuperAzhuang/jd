@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.zhy\mpermission-api\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c025695224d4e573f50b9711d0dd7e2e6da95ae5">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.zhy-mpermission-api-1.0.0_9e0cc199084b970ad180837b28d1094d9cd389dc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_bf77aaebf9bd59abb5d2ddad8d53866b8b3f44a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\BaiduTraceSDK_v2_1_15.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3080175a04798e770bf5514891614e10c550f1a5">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduTraceSDK_v2_1_15_62e25aa9795e2407c34bbde0c8886b6d8502fb62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.zhy\mpermission-api\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c025695224d4e573f50b9711d0dd7e2e6da95ae5">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.zhy-mpermission-api-1.0.0_9e0cc199084b970ad180837b28d1094d9cd389dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a78c92f020545e965a2696bdebc52908a82de57">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_230bc3f51c6529fd50138a1ad825a8339570e4b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_8f82615e162e7a615119fc2566f1494b37820800\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.zhy\autolayout\1.4.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="911eeaf6f474e74b7dbd9fa7f19aa56715a344ae">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.zhy-autolayout-1.4.3_539cd11d79a34424dad6931224f445de6d0290e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.1.1_8f82615e162e7a615119fc2566f1494b37820800.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.zhy\mpermission-annotation\1.0.0\ad87d60db49aec2397f2c07c229db0886a175dd8\mpermission-annotation-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ad87d60db49aec2397f2c07c229db0886a175dd8">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\mpermission-annotation-1.0.0_c51906c23b84bd27775f080550baacf5541fe29a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.1.1_bf77aaebf9bd59abb5d2ddad8d53866b8b3f44a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\BaiduTraceSDK_v2_1_15.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3080175a04798e770bf5514891614e10c550f1a5">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\BaiduTraceSDK_v2_1_15_62e25aa9795e2407c34bbde0c8886b6d8502fb62.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85b23772aaee1a949fbe10602fe0eed1c5a266f4">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9898020ce888e61fd6b5cb0a6ad8166f1d659d18\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.zhy\autolayout\1.4.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="911eeaf6f474e74b7dbd9fa7f19aa56715a344ae">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.zhy-autolayout-1.4.3_539cd11d79a34424dad6931224f445de6d0290e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.android.support-design-23.1.1_d9e07faa7dc6d39f178f60f439f340f25096cd90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\achartengine-1.1.0_c61787173e35c550223c0d6b9b6fb4e3316ce6c1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b975149ac16dc8b4af11cf20884f86fde47d2f7">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_81d5e6c00e0b28bbe3448b55c69fdc57f4f633f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_d9e07faa7dc6d39f178f60f439f340f25096cd90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\BaiduNaviSDK_3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3cda332546ed97463bcde4ec53d51d357ab6ceb6">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduNaviSDK_3.2.0_22d34f9d57f26f0ce457793a9c05372c285244dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\BaiduNaviSDK_3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3cda332546ed97463bcde4ec53d51d357ab6ceb6">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\BaiduNaviSDK_3.2.0_22d34f9d57f26f0ce457793a9c05372c285244dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\locSDK_6.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\locSDK_6.13_293ef5d95902af667e0bd9f0a426c1496a612aa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\okhttp-3.3.1_2ea39afb3973a142a4b831a99bc4e2df1de6a0a5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_293ef5d95902af667e0bd9f0a426c1496a612aa0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_0a36dc77600d33020199a0f284e9bb183a77c90e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="994d12017bc2c9ba570180cde5500689d134e6e6">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\Msc_17bbbeb468a71a036837c8233ec8bc3147c20ae2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_41de50ed14b9d06e0dccb9818e09aac3aa7fd062\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\okio-1.8.0_06f7f952010e37a20e0067d81e65675288b9e24f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\Msc.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="994d12017bc2c9ba570180cde5500689d134e6e6">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\2\Msc_17bbbeb468a71a036837c8233ec8bc3147c20ae2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_3d67bc6296728dce11d45e3fe02a4d0f0bf336e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_06f7f952010e37a20e0067d81e65675288b9e24f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\gson-2.3.1_3d67bc6296728dce11d45e3fe02a4d0f0bf336e9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_2ea39afb3973a142a4b831a99bc4e2df1de6a0a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b975149ac16dc8b4af11cf20884f86fde47d2f7">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\BaiduLBS_Android_81d5e6c00e0b28bbe3448b55c69fdc57f4f633f5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\achartengine-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_c61787173e35c550223c0d6b9b6fb4e3316ce6c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-appindexing-8.1.0_909882d6932b1ca194e6fc06d4f2fd39bc8eae9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.4-SNAPSHOT_121fd80be7a66ca883b1ffe702404ec476b8fa6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.1.0_41de50ed14b9d06e0dccb9818e09aac3aa7fd062.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\libs\universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.4-SNAPSHOT_121fd80be7a66ca883b1ffe702404ec476b8fa6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.1_0a36dc77600d33020199a0f284e9bb183a77c90e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\internal_impl-23.1.1_7d53ab48179a4de27bda0dea8cb594dee1f63e64.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.zhy\okhttputils\2.5.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16038deb0aac6d7f421d7fdee7f047d656cedee8">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.zhy-okhttputils-2.5.2_26b602c413a452d195f7e1defaf29d4c4917baaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.zhy\okhttputils\2.5.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16038deb0aac6d7f421d7fdee7f047d656cedee8">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\com.zhy-okhttputils-2.5.2_26b602c413a452d195f7e1defaf29d4c4917baaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.zhy\mpermission-annotation\1.0.0\ad87d60db49aec2397f2c07c229db0886a175dd8\mpermission-annotation-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ad87d60db49aec2397f2c07c229db0886a175dd8">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\mpermission-annotation-1.0.0_c51906c23b84bd27775f080550baacf5541fe29a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_7d53ab48179a4de27bda0dea8cb594dee1f63e64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_909882d6932b1ca194e6fc06d4f2fd39bc8eae9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\pre-dexed\release\support-annotations-23.1.1_7d79628c08a4bb889e8e1d9aef52b4f68e42559b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\Aazhuang\Android_Jjcb_jd_phone\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_7d79628c08a4bb889e8e1d9aef52b4f68e42559b\classes.dex" />
+    </item>
+
+</items>
