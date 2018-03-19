@@ -19,6 +19,7 @@ import com.feihua.jjcb.jd.phone.constants.Constants;
 import com.feihua.jjcb.jd.phone.db.BiaoCeDatabase;
 import com.feihua.jjcb.jd.phone.db.ChaoBiaoDatabase;
 import com.feihua.jjcb.jd.phone.db.DatabaseHelper;
+import com.feihua.jjcb.jd.phone.fragment.CBGLDetailsFragment;
 import com.feihua.jjcb.jd.phone.navi.NaviInitUtil;
 import com.feihua.jjcb.jd.phone.navi.Node;
 import com.feihua.jjcb.jd.phone.shark.FlashlightUitl;
@@ -159,6 +160,21 @@ public class CBGLDetailsActivity extends BaseActivity implements View.OnClickLis
         flashlight = new FlashlightUitl();
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (adapter != null) {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    CBGLDetailsFragment fragment = (CBGLDetailsFragment) adapter.getItem(index);
+//            adapter = new CBGLDetailsViewPagerAdapter(fm, khDatas, volumeNo, this, mViewPager);
+                    fragment.setUserbKh(volumeNo, khDatas.get(index), String.valueOf(khDatas.size()), index);
+                    fragment.isBasictonTag(index);
+                }
+            }, 800);
+        }
+    }
     @Override
     protected void onPause() {
         super.onPause();

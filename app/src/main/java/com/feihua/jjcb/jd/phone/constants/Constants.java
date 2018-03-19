@@ -7,7 +7,7 @@ public class Constants
 {
 
     //    public static String MAIN_URL = "http://192.168.199.128:8090/fh_jjwater_service/";// 本地环境
-    //    public static String MAIN_URL = "http://192.168.199.149:8090/fh_jjdwater_service/";// 测试环境  lihm  123
+    //    public static String MAIN_URL = "http://192.168.199.149:8090/fh_jjdwater_service/";// 测试环境  jiangqy  1
     public static String MAIN_URL = "http://218.207.198.160:1439/fh_jjdwater_service/";// 晋东正式环境
 //    http://218.207.198.160:1439/
     public static final String LOGIN_URL = MAIN_URL + "user/login";//登入URL

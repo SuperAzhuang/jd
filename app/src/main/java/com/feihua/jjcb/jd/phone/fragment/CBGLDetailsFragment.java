@@ -47,6 +47,7 @@ import com.feihua.jjcb.jd.phone.navi.Node;
 import com.feihua.jjcb.jd.phone.navi.OnNaviListener;
 import com.feihua.jjcb.jd.phone.ui.CBGLDetailsActivity;
 import com.feihua.jjcb.jd.phone.ui.ErrorReportActivity;
+import com.feihua.jjcb.jd.phone.utils.AppUtils;
 import com.feihua.jjcb.jd.phone.utils.DateUtil;
 import com.feihua.jjcb.jd.phone.utils.DensityUtil;
 import com.feihua.jjcb.jd.phone.utils.L;
@@ -63,8 +64,11 @@ import com.zhy.http.okhttp.OkHttpUtils;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import static com.feihua.jjcb.jd.phone.utils.AppUtils.getMap;
 
 /**
  * Created by wcj on 2016-03-31.
@@ -104,6 +108,9 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
     private ViewPager mViewPager;//mediaPlayer对象
     protected CustomProgressDialog mProgressBar;
     protected Context ctx;
+    private int position;
+    private Map<Integer, String> map;
+
     /**
      * 是否在onStart()方法中发出网络请求，默认在onStart()中
      */
@@ -122,7 +129,7 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
 //            }else{
 //                //用Toast提示没有连接网络
 //            }
-            initData();
+//            initData();
         }
         super.setUserVisibleHint(isVisibleToUser);
     }
@@ -195,7 +202,7 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
 //            }else{
 //                //Toast提示没有连接网络
 //            }
-            initData();
+//            initData();
         }else if(onStartGetNetData){
             onStartGetNetData = false;//界面不可见并且是由onStart()加载数据时置为false，委托给setUserVisibleHint()去请求数据
         }
@@ -227,6 +234,7 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
         super.onViewCreated(layout, savedInstanceState);
         ctx = getActivity();
         initViews(layout);
+        initData();
     }
 //
 //    @Override
@@ -387,11 +395,14 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
     }
 
 
-    public void setUserbKh(String volumeNo, String userbKh, String volumeMcount) {
+
+    public void setUserbKh(String volumeNo, String userbKh, String volumeMcount, int position) {
         this.volumeNo = volumeNo;
         this.userbKh = userbKh;
         this.volumeMcount = volumeMcount;
+        this.position = position;
     }
+
 
     @Override
     public void onClick(View v) {
@@ -781,7 +792,11 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
                 L.w("CBGLDetailsFragment", "基本吨tables.getBASICTON_TAG() = " + tables.getBASICTON_TAG() + "户号getUSERB_KH = " + tables.getUSERB_KH() + " 地址 = " + tables.getUSERB_ADDR());
 
 //                yield = Integer.valueOf(tables.getBASICTON_QAN());
-                ToastUtil.showShortToast("该用户是基本吨户");
+//                ToastUtil.showShortToast("该用户是基本吨户");
+                map = getMap();
+                if (!map.containsKey(position)) {
+                    map.put(position, "1");
+                }
                 spinnerIndex = getBKIndex("基本吨");
                 spinnerBk.setSelection(spinnerIndex);
                 setBKState(spinnerIndex);
@@ -906,5 +921,15 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
     private void nextPage() {
         CBGLDetailsActivity activity = (CBGLDetailsActivity) getActivity();
         activity.nextPage();
+    }
+
+    /**
+     * 判断是否是基本吨用户
+     */
+    public void isBasictonTag(int position) {
+
+        if (AppUtils.getMap().containsKey(position)) {
+            ToastUtil.showShortToast("该用户是基本吨户");
+        }
     }
 }
