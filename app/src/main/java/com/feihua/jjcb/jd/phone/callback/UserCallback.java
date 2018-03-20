@@ -15,11 +15,13 @@ import okhttp3.Response;
 public abstract class UserCallback extends Callback<User>
 {
 
+
+
     @Override
     public User parseNetworkResponse(Response response) throws Exception
     {
         String content = response.body().string();
-        L.w("UserCallback", "content" + content);
+//        L.w("UserCallback", "content" + content);
         DataInfo dataInfo = new Gson().fromJson(content, DataInfo.class);
         User user = null;
         if (dataInfo.success)
@@ -31,6 +33,7 @@ public abstract class UserCallback extends Callback<User>
         else
         {
             onNetworkError(false,dataInfo.msg);
+
         }
         return user;
     }
@@ -38,6 +41,7 @@ public abstract class UserCallback extends Callback<User>
     @Override
     public void onError(Call call, Exception e)
     {
+//        L.w("UserCallback", "Exception = " + e.toString());
         onNetworkError(true,e.getMessage());
     }
 

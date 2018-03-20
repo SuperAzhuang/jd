@@ -9,8 +9,8 @@ android {
         applicationId "com.feihua.jjcb.jd.phone"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 30
-        versionName '1.0.30'
+        versionCode 31
+        versionName '1.0.31'
 //        keyalias jjcb_jd
     }
     buildTypes {

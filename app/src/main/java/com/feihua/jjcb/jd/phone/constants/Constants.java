@@ -7,9 +7,9 @@ public class Constants
 {
 
     //    public static String MAIN_URL = "http://192.168.199.128:8090/fh_jjwater_service/";// 本地环境
-    //    public static String MAIN_URL = "http://192.168.199.149:8090/fh_jjdwater_service/";// 测试环境  jiangqy  1
-    public static String MAIN_URL = "http://218.207.198.160:1439/fh_jjdwater_service/";// 晋东正式环境
-//    http://218.207.198.160:1439/
+    //    public static String MAIN_URL = "http://192.168.199.149:8090/fh_jjdwater_service/";// 测试环境    1
+    public static String MAIN_URL = "http://218.207.198.160:1439/fh_jjdwater_service/";// 晋东正式环境  wangyj 1
+//    http://218.207.198.160:1439/    http://218.207.198.160:1439/fh_jjdwater_serviceuser/login?account=jiangqy&password=1
     public static final String LOGIN_URL = MAIN_URL + "user/login";//登入URL
     public static final String UPDATE_PHONE = MAIN_URL + "userbase/updatePhone";//修改用户手机号
     public static final String DOWN_TABLES = MAIN_URL + "volume/getVolume";//下载册号数据列表

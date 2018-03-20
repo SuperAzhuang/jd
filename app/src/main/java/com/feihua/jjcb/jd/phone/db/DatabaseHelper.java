@@ -78,7 +78,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String UP_TIME = "UP_TIME";// 数据库采集时间
     public static final String SPEED = "SPEED";// 数据库移动速度
     public static final String LOC_MODE = "LOC_MODE";// 数据库定位方式
-
     /* 表中的字段 */
     public static final String BIAOK_TABLE_ID = "_id";
     public static final String WATER_BK = "WATER_BK";// 表况

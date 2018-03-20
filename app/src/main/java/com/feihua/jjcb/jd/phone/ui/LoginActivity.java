@@ -11,6 +11,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 
 import com.feihua.jjcb.jd.phone.R;
+import com.feihua.jjcb.jd.phone.callback.DataInfo;
 import com.feihua.jjcb.jd.phone.callback.User;
 import com.feihua.jjcb.jd.phone.callback.UserCallback;
 import com.feihua.jjcb.jd.phone.constants.Constants;
@@ -18,7 +19,16 @@ import com.feihua.jjcb.jd.phone.utils.L;
 import com.feihua.jjcb.jd.phone.utils.SharedPreUtils;
 import com.feihua.jjcb.jd.phone.utils.StringUtils;
 import com.feihua.jjcb.jd.phone.utils.ToastUtil;
+import com.google.gson.Gson;
 import com.zhy.http.okhttp.OkHttpUtils;
+import com.zhy.http.okhttp.callback.Callback;
+
+import org.json.JSONObject;
+
+import java.io.IOException;
+
+import okhttp3.Call;
+import okhttp3.Response;
 
 public class LoginActivity extends BaseActivity implements View.OnClickListener
 {
@@ -109,6 +119,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener
     {
         mProgressBar.setProgressMsg(getResources().getString(R.string.progress_logining));
         mProgressBar.show();
+
         OkHttpUtils.post()//
                 .url(Constants.LOGIN_URL)//
                 .addParams("account", userName)//
@@ -117,15 +128,27 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener
                 .execute(new UserCallback()
                 {
                     @Override
-                    public void onNetworkError(boolean isNetwork, String error)
+                    public void onNetworkError(boolean isNetwork, final String error)
                     {
+                        L.w("UserCallback", "isNetwork" + isNetwork);
                         if (isNetwork)
                         {
-                            ToastUtil.showShortToast(R.string.toast_network_anomalies);
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    ToastUtil.showShortToast(R.string.toast_network_anomalies);
+                                }
+                            });
                         }
                         else
                         {
-                            ToastUtil.showShortToast(error);
+//                            ToastUtil.showShortToast(error);
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    ToastUtil.showShortToast(error);
+                                }
+                            });
                         }
                         mProgressBar.dismiss();
                     }

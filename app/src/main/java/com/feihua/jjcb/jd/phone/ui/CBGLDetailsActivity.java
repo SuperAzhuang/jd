@@ -230,6 +230,11 @@ public class CBGLDetailsActivity extends BaseActivity implements View.OnClickLis
     {
         index = position;
         tvJBH.setText(datas.get(position).USERB_JBH.trim());
+        CBGLDetailsFragment fragment = (CBGLDetailsFragment) adapter.getItem(index);
+//            adapter = new CBGLDetailsViewPagerAdapter(fm, khDatas, volumeNo, this, mViewPager);
+        fragment.setUserbKh(volumeNo, khDatas.get(index), String.valueOf(khDatas.size()), index);
+        fragment.isBasictonTag(index);
+
     }
 
     @Override
