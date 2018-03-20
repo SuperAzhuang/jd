@@ -221,6 +221,10 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
         if (voice!=null) {
             voice.onFinish();
         }
+        if (map!=null) {
+            map.clear();
+        }
+
         super.onDestroy();
     }
     @Nullable
@@ -793,7 +797,7 @@ public class CBGLDetailsFragment extends Fragment implements View.OnClickListene
 
 //                yield = Integer.valueOf(tables.getBASICTON_QAN());
 //                ToastUtil.showShortToast("该用户是基本吨户");
-                map = getMap();
+                map = AppUtils.getMap();
                 if (!map.containsKey(position)) {
                     map.put(position, "1");
                 }
